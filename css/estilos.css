@@ -1,0 +1,223 @@
+/** background-image: url("https://nacionbeta.com/wp-content/uploads/2018/01/st2.jpg"); 
+  ** background-repeat:  no-repeat;
+  ** background-size: 100%;
+  ** background-position: 0px 230px; **/
+
+/* ! Margen Global para toda la pagina, se le aplica a toda la pagina */
+*{margin: 0;
+}
+
+/* ! Caracteristicas para el cuerpo de pagina, por ahora solo es  el fondo */
+body{
+  background-color: #1B2838;
+}
+
+/* ? Imagen de Portada, la que aparece arriba de todo de cada HTML */
+.imagen_portada {border: 2px solid black;
+  max-width: 100%;
+  height: 60%;
+}
+
+/* ? Menu de botones para usar la pagina, el general */
+header{
+  font-family: Bahnschrift light;
+  width: 900px;
+  margin: 0 auto;
+  display: flex; justify-content: center; align-items: center;
+}
+
+ul{
+  list-style: none;
+}
+
+/* ? Estilos para los botones */
+#menu li>a{
+  background-color: #252E3D;
+  background-image: linear-gradient(#1F2636, #212226);
+  color: white;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  min-width: 100px;
+}
+
+/* ? Estilos para los botones cuando esta el mouse por encima o cuando se va a clickear */
+#menu li>a:hover{
+  color: red;
+  background-color: #252E3D;
+  background-image: linear-gradient(#0d121b, #111a29);
+  cursor: pointer;
+}
+
+#menu>li{
+  float: left;
+  text-align:center
+}
+
+#menu>li>ul{
+  display: none;
+}
+
+#menu>li:hover>ul {
+  display:block;
+}
+
+/* ? Información que aparece como el titulo de la pagina, "Nomad Gaming and Racing" */
+.titulo {
+  font-family: Lucida console;
+  color: white;
+  background-color: #252E3D;
+  background-image: linear-gradient(#1F2636, #212226);
+  padding: 10px;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ? Titulo que dice "Información" en todos los HTML */
+.informacion {
+  font-family: Lucida console;
+  border: 2px linear-gradient(#344469, #212226);
+  color: white;
+  background-color: #252E3D;
+  background-image: linear-gradient(#1F2636, #212226);
+  padding: 10px;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ? Estilo general para los cuadrados con información dentro de la pagina */
+.recuadro {   
+  background-color:#383f4883;
+  border: 12px #383f4883;
+  margin: 40px;
+  width: 320px;
+  height: 317px;
+  float: left;
+  opacity: 80%;
+}
+
+.recuadro_contacto {   
+  background-color:#383f4883;
+  border: 12px #383f4883;
+  margin: 50px;
+  width: 420px;
+  height: 277px;
+  opacity: 80%;
+}
+
+.recuadro_carreras {
+  background-color:#383f4883;
+  border: 12px #383f4883;
+  margin: 50px;
+  width: 360px;
+  height: 477px;
+  opacity: 80%;
+  }
+
+  .recuadro_shooter {
+    background-color:#383f4883;
+    border: 12px #383f4883;
+    margin: 50px;
+    width: 1060px;
+    height: 677px;
+    opacity: 80%;
+    }
+
+/* ? Estilo general para los contenidos que tienen los recuadros, por ahora solo es utilizado por 4 mensajes */
+
+.banner_juegos {
+  width: 305px;
+  height: 80px;
+  margin: 7px;
+}
+
+.banner_trofeo {
+  width: 305px;
+  height: 110px;
+  margin: 7px;
+}
+
+.titulo_recuadro {
+  color: white;
+  font-family: Lucida console;
+  padding: 10px;
+  margin: 2px;
+  text-align: center;
+}
+
+.mensajes {
+  color: white;
+  padding: 4px;
+  margin: 5px;
+  text-align: left;
+}
+
+.tiempo {
+  color: white;
+  padding: 2px;
+  margin: 5px;
+  font-size: 12px;
+  text-align: left;
+}
+
+.remarcar {
+  color: rgb(211, 100, 49);
+  font-family: Arial;
+}
+
+.red_social {
+  width: 48px;
+  height: 48px;
+  margin: 7px;
+  float: left;
+}
+
+.mensajes_contacto {
+  color: white;
+  float: center;
+  margin: 10px;
+}
+
+#titulo_contacto {
+  font-size: 22px;
+}
+
+#ig{
+  font-family: Arial;
+  text-align: left;
+  float: center;
+}
+
+#st{
+  font-family: Arial;
+  text-align: left;
+}
+
+#tw{
+  font-family: Arial;
+  text-align: left;
+}
+
+#ml{
+  font-family: Arial;
+  text-align: left;
+}
+
+/* ? Estilos para los contenidos de los juegos */
+
+#survival {
+  height: 140px;
+}
+
+#carreras {
+  width: 340px;
+  height: 140px; 
+}
+
+#shooter {
+  margin: 30px;
+  width: 1000px;
+  height: 550px;
+}
